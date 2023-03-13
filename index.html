@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <title>DimmiHub</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid header_container">
+        <div class="row">
+          <div class="col-lg-2 header">
+            <img class="logo_header" src="./logo_dimmihub.svg" alt="" />
+          </div>
+
+          <div class="col-lg-8 button_header">
+            <button>Soluçôes</button>
+            <button>Recursos</button>
+            <button>Como Funciona</button>
+            <button>Sobre</button>
+            <button>Blog guru</button>
+          </div>
+
+          <div class="col-lg-2 button_right">
+            <button>Preços e planos</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container body_container">
+        <div class="row">
+          <div class="col-lg-12 main">
+            <img class="main_logo" src="./logo_dimmihub.svg" alt="" />
+            <h1 class="main_title mt-3">
+              <span style="color: #a009c5">Automação WhatsApp</span> para vender
+              mais e atender melhor
+            </h1>
+            <p class="main_paragraph">
+              Aumente o volume de atendimento e gere mais leads para seus
+              vendedores sem aumentar o custo com pessoal.
+            </p>
+            <button class="main_button">Quero saber mais</button>
+
+            <img class="pg-main" src="./diimmiprint.png" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<style>
+  .header_container {
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #a009c5;
+    justify-content: center;
+  }
+
+  .logo_header {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .button_right {
+    display: flex;
+    margin: 10px 0px;
+  }
+
+  .button_right button {
+    border: 2px solid #5a136c;
+    background-color: #a009c5;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .button_right button:hover {
+    text-decoration: underline;
+  }
+
+  .button_header {
+    justify-content: center;
+    display: flex;
+  }
+
+  .button_header button {
+    margin: 20px 30px;
+    outline: 0;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .button_header button:hover {
+    text-decoration: underline;
+    color: #a009c5;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+  }
+
+  .main_logo {
+    width: 50%;
+  }
+
+  .main_paragraph{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    width: 60%;
+    margin-top: 2%;
+  }
+
+  .main_button{
+    margin-top: 3%;
+    padding: 15px 10px;
+    border: 2px solid #5a136c;
+    background-color: #a009c5;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+
+  .main_button:hover{
+    text-decoration: underline;
+  }
+  .pg-main{
+    margin-top: 5%;
+    width: 80%;
+  }
+</style>
